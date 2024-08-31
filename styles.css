@@ -1,0 +1,293 @@
+*{
+    font-family: Poppins;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #0A0A10;
+}
+nav{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+}
+nav .name{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: default;
+    user-select: none;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #007999;
+    transition: all .3s;
+}
+.cta{
+    background-color: #156883;
+    border-radius: 5px;
+    color: #0A0A10;
+    font-size: 22px;
+    font-weight: 400;
+    border: 2px solid #156883;
+    padding: 15px;
+}
+nav ul li a.cta:hover{
+    background-color: #0A0A10;
+}
+section{
+    height: 100vh;
+    position: relative;
+}
+
+section#home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    scale: 1.0;
+    border-bottom: 2px solid #156883;
+    justify-content: center;
+}
+
+p{
+    color: white;
+}
+
+
+section#home div p.intro{
+    width: 630px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+section#home div p.job{
+    color: #156883;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+section#home div p.head{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section#home .call-action {
+    display: flex;
+    justify-content: space-between;
+    width: 23em;
+    padding: 0 0 0 0px;
+}          
+section#about{
+    padding: 100px;
+    border-bottom:2px solid #007999;
+}
+                    
+section#about h1{
+    color: #156883;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+section#about div{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section#about img{
+    height: 500px;
+    background: #0A0A10;
+    border: 2px solid #156883;
+    border-radius: 50%;
+    scale: 0.8;
+    box-shadow: 4px 4px 8px #007999;
+    box-shadow: -4px -4px 8px #000000;
+    width: 500px;
+}
+section#about p{
+    width: 600px;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.call-action a {
+    border-radius: 5px;
+    color: #0e0e16;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    transition: .3s;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #007999;
+    border: 2px solid #007999;
+}
+
+.call-action a:nth-child(2) {
+    background-color: transparent;
+    color: #007999;
+    width: 95px;
+    transition: .5s;
+}
+
+.call-action a:nth-child(2):hover::before {
+    background-color: #007999;
+    width: 100%;
+}
+
+.call-action a:nth-child(2):hover {
+    color: #000014;
+}
+
+.call-action a:hover {
+    color: #007999;
+}
+
+
+.call-action a::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: .5s;
+    height: 100%;
+    width: 0px;
+    background-color: #0e0e16;
+    z-index: -1;
+    }
+.call-action a:hover::before {
+    width: 100%;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #156883;
+    border-radius: 10px;
+}
+section#projects h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+section#projects{
+    padding: 30px;
+
+}
+div.contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 100%;
+}
+
+div.contents div{
+    background-color: rgb(136, 122, 67);
+    width: 23%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    color: red;
+    color: orange;
+    color: yellow;
+    color: green;
+    color: blue;
+    color: indigo;
+    color: violet;
+}
